@@ -1,0 +1,229 @@
+/****** BASE STYLES ******/
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 1200px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+   font-family: 'Bellefair', serif;
+   text-transform: capitalize;
+   font-size: 72px;
+   color:   #D9A491;
+   padding: 500px 0 0px 0px;
+
+}
+
+header h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 60px;
+    line-height: 90px;
+    color: #D9A491;
+    padding: 0px 5px 0px 0px;
+    margin-left: 0px;
+}
+
+ header h1 span {
+    color: #BF1F1F;
+    font-family: 'Homemade Apple', cursive;
+  }
+
+/****** PORTFOLIO ******/
+
+#portfolio h2 {
+  font-family: 'Bellefair', serif;
+  text-transform: capitalize;
+  font-size: 72px;
+  color:   #D9A491;
+  text-align: center;
+}
+
+#portfolio h2 span {
+  color: #BF1F1F;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#portfolio h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 33px;
+    padding-top: 0px;
+}
+
+#portfolio h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#portfolio p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    text-align: justify;
+    font-weight: normal;
+    width: 600px;
+}
+
+#portfolio img {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+/****** ABOUT ******/
+
+#about {
+  height: 900px;
+  background: #EFDCCD;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#about h2 {
+  font-family: 'Bellefair', serif;
+  text-transform: capitalize;
+  font-size: 72px;
+  color:   #D9A491;
+  text-align: center;
+}
+
+#about h2 span {
+  color: #BF1F1F;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#about h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0px;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#about p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: normal;
+    width: 550px;
+    margin-left: 50px;
+    overflow: visible;
+}
+
+ #about p span {
+   color: #BF1F1F;
+   font-family: 'Homemade Apple', cursive;
+ }
+
+
+#about img {
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+
+/****** CONTACT ******/
+
+#contact {
+    height: 600px;
+    background: #EFDCCD
+    text-align: center;
+    align-items: center;
+  }
+
+#contact h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 72px;
+  color: #D9A491;
+  text-align: center;
+}
+
+#contact h2 span {
+  color: #BF1F1F;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#contact h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 33px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#contact p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  font-weight: normal;
+  margin-left: 50px;
+}
+
+#contact ul {
+text-align: center;
+font-size: 27px;
+list-style-type: none;
+}
+
+#contact img {
+  display:inline-block;
+  margin-left: 75px;
+  margin-top: 20px;
+
+}
+
+#contact a {
+  color: #BF1F1F;
+  text-decoration: none;
+}
+
+#contact small {
+  text-align: center;
+  align-items: center;
+}
